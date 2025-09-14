@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about us" element={<Aboutus />} />
-           <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<Login />} />
           {/* <Route path="/genre" element={<Genre />} />
           <Route path="/country" element={<Country />} />
           <Route path="/movies" element={<Movies />} />
@@ -34,3 +34,4 @@ function App() {
 }
 
 export default App;
+
