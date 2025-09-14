@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Aboutus from "./components/Aboutus/Aboutus";
+import Login from "./components/Login/Login";
 // import Genre from "./pages/Genre";
 // import Country from "./pages/Country";
 // import Movies from "./pages/Movies";
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about us" element={<Aboutus />} />
+           <Route path="/login" element={<Login />} />
           {/* <Route path="/genre" element={<Genre />} />
           <Route path="/country" element={<Country />} />
           <Route path="/movies" element={<Movies />} />
